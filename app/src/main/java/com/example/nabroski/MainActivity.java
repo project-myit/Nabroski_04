@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 bt_save.startAnimation(AnimationUtils.loadAnimation(motion_container.getContext(),R.anim.myalpha));
                 bt_relog.startAnimation(AnimationUtils.loadAnimation(motion_container.getContext(),R.anim.myalpha));
                 //код сохраняющий фото
-                Bitmap bitmap = ((BitmapDrawable)avatar.getDrawable()).getBitmap();
-                saveReceivedImage(bitmap, "avatar");
+//                Bitmap bitmap = ((BitmapDrawable)avatar.getDrawable()).getBitmap();
+//                saveReceivedImage(bitmap, "avatar");
                 //а дальше я хз,нужно както чтото гдето
             }
         });
